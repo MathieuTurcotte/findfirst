@@ -3,7 +3,7 @@
 This is an implementation of
 [findfirst](http://msdn.microsoft.com/en-US/library/zyzxfzac.aspx),
 [findnext](http://msdn.microsoft.com/en-US/library/6tkkkc1y.aspx) and
-[findclose](http://msdn.microsoft.com/en-US/library/0165cecc.aspx) for Linux.
+[findclose](http://msdn.microsoft.com/en-US/library/0165cecc.aspx) for Linux and Mac OS X.
 Linux and Mac OS X functions should have the same signatures as their Win32 equivalents.
 
 ## Integration
