@@ -18,8 +18,8 @@ CFLAGS=-Wall -Wextra -O3
 LDFLAGS=
 
 test_spec_objs=spec.o test_spec.o
-test_findfirst_objs=spec.o findfirst.o test_findfirst.o
-main_objs=spec.o findfirst.o main.o
+test_findfirst_objs=apple_dir_mutex.o apple_fstatat.o spec.o findfirst.o test_findfirst.o
+main_objs=apple_dir_mutex.o apple_fstatat.o spec.o findfirst.o main.o
 
 all: test_spec test_findfirst main
 
